@@ -152,7 +152,7 @@ export default function TechnicianVisitPage() {
                                      {/* Evidence Media (Video/Photo/Voice) */}
                                      <div className="mb-4">
                                        <label className="text-[10px] text-slate-500 uppercase block mb-2">Media Evidence</label>
-                                       <div className="grid grid-cols-3 gap-2">
+                                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                                          <button className="bg-slate-700 hover:bg-slate-600 text-white py-3 rounded flex flex-col items-center gap-1 text-[10px] border border-slate-600">
                                            <Camera size={16} className="text-blue-400"/> Photo
                                          </button>
