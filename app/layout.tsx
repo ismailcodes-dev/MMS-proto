@@ -34,7 +34,7 @@ export default function RootLayout({
             {/* 1. DASHBOARD */}
             <div className="mb-6">
               <p className="px-3 text-[10px] uppercase text-slate-500 font-bold mb-2">Overview</p>
-              <Link href="/contracts" className="flex items-center gap-3 px-3 py-2 text-sm font-medium text-slate-300 rounded-md hover:bg-slate-800 hover:text-white transition-colors">
+              <Link href="/contracts/manage/" className="flex items-center gap-3 px-3 py-2 text-sm font-medium text-slate-300 rounded-md hover:bg-slate-800 hover:text-white transition-colors">
                 <LayoutDashboard size={18} />
                 <span>Contracts Dashboard</span>
               </Link>
@@ -67,15 +67,6 @@ export default function RootLayout({
                 <div className="flex items-center gap-3">
                   <FileCheck size={18} />
                   <span>3. Quotation Builder</span>
-                </div>
-                <ChevronRight size={14} className="opacity-0 group-hover:opacity-100"/>
-              </Link>
-
-
-               <Link href="/contracts/manage/" className="group flex items-center justify-between px-3 py-2 text-sm font-medium text-slate-400 rounded-md hover:bg-green-900/20 hover:text-green-400 transition-colors">
-                <div className="flex items-center gap-3">
-                  <FileCheck size={18} />
-                  <span>4. Contract</span>
                 </div>
                 <ChevronRight size={14} className="opacity-0 group-hover:opacity-100"/>
               </Link>
